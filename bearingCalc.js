@@ -15,7 +15,7 @@
 // as referenced and documented here:
 //
 // http://cintos.org/SaginawManifold/BearingCalc/index.html
-// 
+//
 // G. E. Deschaines
 
 var flag_debug = false;
@@ -226,7 +226,7 @@ function GreatCircleBearing (lat1, lon1, lat2, lon2) {
 };
 
 function LatLonFromBearing(foreLat, foreLon, bearing, distance) {
-    // Returns a LatLon object from coordinate [foreLat, foreLon] and along
+    // Returns a LatLon object far from coordinate [foreLat, foreLon] and along
     // bearing given in radians out to given distance in kilometers (pg 14 of [2]).
     // 
     // References:
@@ -274,13 +274,13 @@ function PointPlacemarkKML (name, styleUrl, Lat, Lon) {
     // Lat, Lon values in degrees.
     debugPrint("Lat1, Lon1 (deg) = " + Lat.toFixed(8) + ", " + Lon.toFixed(8));
     var kml = "  <Style id=\"sn_arrow\">\n"
-		+ "    <IconStyle>\n"
-		+ "      <color>ff9c8dff</color>\n"
-		+ "      <scale>0.5</scale>\n"
-		+ "      <Icon>\n"
-		+ "	     <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>\n"
-		+ "      </Icon>\n"
-		+ "    </IconStyle>\n"
+	      + "    <IconStyle>\n"
+	      + "      <color>ff9c8dff</color>\n"
+	      + "      <scale>0.5</scale>\n"
+            + "      <Icon>\n"
+            + "        <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>\n"
+	      + "      </Icon>\n"
+	      + "    </IconStyle>\n"
             + "  </Style>\n"
             + "  <Placemark>\n"
             + "    <name>" + name + "</name>\n"
