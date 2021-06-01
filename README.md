@@ -14,7 +14,7 @@ If Python 3 is installed, go to the work space directory containing the `bearing
 
 Then open a web browser and enter URL `http://localhost:8000/bearingCalc.html` or `http://0.0.0.0:8000/bearingCalc.html` in the address bar to load the `bearingCalc.html` web page.
 
-If Visual Studio Code is installed, open the `bearingCalc.html` file for editing and select Run Without Debugging, then choice a browser from the options offered to load the `bearingCalc.html` web page.
+If Visual Studio Code is installed, open the `bearingCalc.html` file for editing and select Run Without Debugging, then choose a browser from the options offered to load the `bearingCalc.html` web page.
 
 ## Background
 
