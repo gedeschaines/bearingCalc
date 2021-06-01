@@ -5,16 +5,16 @@
 // accurate percentage of JavaScript represented in the bearingCalc
 // code base.
 //
+// Note: Changes made to JavaScript within the bearingCalc.html
+//       file do not need to be made herein, unless this file
+//       should be used as source for bearingCalc functionalality.
+//
 // Carolina Bay to Saginaw Bay Impactor Bearing Calculator
 //
 // Derived from the defunct Bearing Calculator © 2010 Michael Davias,
 // as referenced and documented here:
 //
 // http://cintos.org/SaginawManifold/BearingCalc/index.html
-//
-// Note: Changes made to JavaScript within the bearingCalc.html
-//       file do not need to be made herein, unless this file
-//       should be used as source for bearingCalc functionalality.
 // 
 // G. E. Deschaines
 
