@@ -305,7 +305,16 @@ function PointPlacemarkKML (name, styleUrl, Lat, Lon) {
     // Returns a KML string to place a named Point Placemark at given 
     // Lat, Lon values in degrees.
     debugPrint("Lat1, Lon1 (deg) = " + Lat.toFixed(8) + ", " + Lon.toFixed(8));
-    var kml = "  <Placemark>\n"
+    var kml = "  <Style id=\"sn_arrow\">\n"
+		+ "    <IconStyle>\n"
+		+ "      <color>ff9c8dff</color>\n"
+		+ "      <scale>0.5</scale>\n"
+		+ "      <Icon>\n"
+		+ "	     <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>\n"
+		+ "      </Icon>\n"
+		+ "    </IconStyle>\n"
+            + "  </Style>\n"
+            + "  <Placemark>\n"
             + "    <name>" + name + "</name>\n"
             + "    <styleUrl>" + styleUrl + "</styleUrl>\n"
             + "    <Point>\n"
@@ -404,15 +413,6 @@ function PredictedBearingsKML (lat, lon, rotC, rotNE, rotSW) {
             + "  Loft Time = " + loftTime_C.toFixed(2) + " min\n"
             + "  Loft Distance = " + loftDistance_C.toFixed(1) + " km\n"
             + "  </description>\n"
-            + "  <Style id=\"sn_arrow\">\n"
-		+ "    <IconStyle>\n"
-		+ "      <color>ff9c8dff</color>\n"
-		+ "      <scale>0.5</scale>\n"
-		+ "      <Icon>\n"
-		+ "	     <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>\n"
-		+ "      </Icon>\n"
-		+ "    </IconStyle>\n"
-            + "  </Style>\n"
             + "  <Style id=\"NE_path\">\n"
             + "    <LineStyle>\n"
             + "       <color>ff23fffd</color>\n"
@@ -477,6 +477,7 @@ function DeSkewedAlignmentKML (lat0, lon0, rot0, lat1, lon1, rot1) {
             + "       <width>2</width>\n"
             + "    </LineStyle>\n"
             + "  </Style>\n"
+            + PointPlacemarkKML (elementName, "#sn_arrow", lat0*DPR, lon0*DPR)
             + BearingPathPlacemarkKML ("Arrow-Provided Bearing", "#userBearing", lat0, lon0, rot0, dist0)
             + LineStringPlacemarkKML ("Loft Time Offset", "#Rotate", lat0*DPR, lon0*DPR, lat1*DPR, lon1*DPR)
             + BearingPathPlacemarkKML ("deSkewed Loft", "#Loft", lat1, lon1, rot1, dist1)
