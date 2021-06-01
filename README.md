@@ -43,4 +43,4 @@ Primary references for Bearing Calculator specific methods and functional featur
 
 \[4] <http://cintos.org/SaginawManifold/styled-75/styled-77/index.html>
 
-Secondarly, web page HTML and CSS elements, JavaScript integration with HTML DOM elements and JavaScript object-oriented design patterns were derived from example pages and scripts provided in the GitHub [jsRK4](https://github.com/gedeschaines/jsRK4) source repository.
+Secondarily, web page HTML and CSS elements, JavaScript integration with HTML DOM elements and JavaScript object-oriented design patterns were derived from example pages and scripts provided in the GitHub [jsRK4](https://github.com/gedeschaines/jsRK4) source repository.
