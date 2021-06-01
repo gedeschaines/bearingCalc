@@ -426,9 +426,9 @@ function PredictedBearingsKML (lat, lon, rotC, rotNE, rotSW) {
             + "    </LineStyle>\n"
             + "  </Style>\n"
             + PointPlacemarkKML (elementName, "#sn_arrow", lat*DPR, lon*DPR)
+            + BearingPathPlacemarkKML ("SW Rampart", "#SW_path", lat, lon, rotSW, distance)
             + BearingArrowKML (elementName, lat, lon, rotC)
             + BearingPathPlacemarkKML ("NE Rampart", "#NE_path", lat, lon, rotNE, distance)
-            + BearingPathPlacemarkKML ("SW Rampart", "#SW_path", lat, lon, rotSW, distance)
             + "</Document>\n</kml>\n";
     return (kml);
 };
