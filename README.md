@@ -10,8 +10,7 @@ Here are two simple methods to run this Bearing Calculator HTML/JavaScript web p
 
 If Python 3 is installed, go to the work space directory containing the `bearingCalc.hmtl` file and invoke Python 3's http.server with the following command.
 
-``` > python -m http.server 8000
-```
+    > python -m http.server 8000
 
 Then open a web browser and enter URL `http://localhost:8000/bearingCalc.html` or `http://0.0.0.0:8000/bearingCalc.html` in the address bar to load the `bearingCalc.html` web page.
 
