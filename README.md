@@ -28,7 +28,7 @@ In addition to the disclaimer stipulated within the [CC BY-NC-SA 3.0 license](ht
 
 2. The vintage of Bearing Calculator reference material may introduce incorrect and broken hyperlinks.
 
-3. The bearing calculation methodology may be obsolote, possiby superseded by more recent Carolina Bay survey data, orientation analysis techniques, and geological/archeological field studies.
+3. The bearing calculation methodology may be obsolete, possiby superseded by more recent Carolina Bay survey data, orientation analysis techniques, and geological/archeological field studies.
 
 ## Attribution
 
