@@ -7,7 +7,7 @@
 //
 // Note: Changes made to JavaScript within the bearingCalc.html
 //       file do not need to be made herein, unless this file
-//       should be used as source for bearingCalc functionalality.
+//       should be used as source for bearingCalc functionality.
 //
 // Carolina Bay to Saginaw Bay Impactor Bearing Calculator
 //
